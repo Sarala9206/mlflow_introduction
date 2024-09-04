@@ -12,12 +12,14 @@ MLflow is designed to put as few constraints as possible and make codebase writt
 ## Installation and first trial of MLflow
 First create the conda environment by the following command -
 
+########################
 conda create --prefix ./env python=3.7 -y
 activate environment
 
+###########################
 conda actiavate ./env
 To use MLflow as a Python library, install it using pip. You can install MLflow by running:
-
+################################
 pip install mlflow
 or
 pip install requirements.txt
